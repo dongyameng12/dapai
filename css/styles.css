@@ -1,19 +1,12 @@
 * {
   touch-action: pan-y;
 }
-body {
-  display: none;
-}
 html,
 body {
   background-color: #ff8a00;
   height: 100%;
+  padding-bottom: .4rem;
   /* 遮罩层 */
-}
-html section.page,
-body section.page {
-  padding-bottom: .8rem;
-  box-sizing: border-box;
 }
 html section.page > div:nth-child(1),
 body section.page > div:nth-child(1) {
@@ -90,11 +83,7 @@ body section.page > div:nth-child(4) {
   overflow-y: hidden;
   background: url(../images/fu_08.png) no-repeat center center;
   background-size: cover;
-  position: relative;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: .2rem;
+  margin: 0.4rem auto;
 }
 html section.page > div:nth-child(4) > ul,
 body section.page > div:nth-child(4) > ul {

@@ -10,12 +10,14 @@
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
 })(document, window);
+
 // ios点击事件不触发
 $(function() {  
     FastClick.attach(document.body);  
 })
+    
 $(document).ready(function(){
-    $("body").css("display","block")
+    $('body').css('display','block')
     // 点击领取
     $('#allbtn1').click(function(){
         showyn('#allbtn1','btnAll')
