@@ -1,6 +1,9 @@
 * {
   touch-action: pan-y;
 }
+body {
+  display: none;
+}
 html,
 body {
   background-color: #ff8a00;
@@ -9,7 +12,7 @@ body {
 }
 html section.page,
 body section.page {
-  padding-bottom: .4rem;
+  padding-bottom: .8rem;
   box-sizing: border-box;
 }
 html section.page > div:nth-child(1),
