@@ -17,7 +17,6 @@ $(function() {
 })
     
 $(document).ready(function(){
-    $('body').css('display','block')
     // 点击领取
     $('#allbtn1').click(function(){
         showyn('#allbtn1','btnAll')
