@@ -83,7 +83,11 @@ body section.page > div:nth-child(4) {
   overflow-y: hidden;
   background: url(../images/fu_08.png) no-repeat center center;
   background-size: cover;
-  margin: 0.4rem auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: .2rem;
 }
 html section.page > div:nth-child(4) > ul > li > span,
 body section.page > div:nth-child(4) > ul > li > span {
